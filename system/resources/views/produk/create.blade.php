@@ -20,7 +20,7 @@
 					<div class="col-md-6">
 						<div class="form-group">
 						<label class="control-label" for="">Berat</label>
-						<input type="text" name="berat" class="form-control">
+						<input type="text" name="Berat" class="form-control">
 					</div>
 					</div>
 					<div class="col-md-3">

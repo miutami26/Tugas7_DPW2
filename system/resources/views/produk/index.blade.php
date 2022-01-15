@@ -15,11 +15,11 @@
 								@csrf
 								<div class="form-group">
 									<label for="" class="control-label">Nama</label>
-									<input type="text" class="form-control" name="nama" value="{{$Nama_produk ?? ''}}">
+									<input type="text" class="form-control" name="Nama_produk" value="{{$Nama_produk ?? ''}}">
 								</div>
 								<div class="form-group">
 									<label for="" class="control-label">Stok</label>
-									<input type="text" class="form-control" name="stok" value="{{$Stok ?? ''}}">
+									<input type="text" class="form-control" name="Stok" value="{{$Stok ?? ''}}">
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
@@ -64,9 +64,9 @@
 										</div>
 
 									</td>
-									<td>{{$produk->nama}}</td>
-									<td>{{$produk->harga}}</td>
-									<td>{{$produk->stok}}</td>
+									<td>{{$produk->Nama_produk}}</td>
+									<td>{{$produk->Harga}}</td>
+									<td>{{$produk->Stok}}</td>
 								</tr>
 								@endforeach
 							</tbody>							
